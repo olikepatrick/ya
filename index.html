@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			歐歐世界
+		</title>
+
+		<script src="/jquery/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript"> 
+			$(document).ready(function(){
+			$(".bu").click(function(){
+		    $(".panel").slideToggle("slow");
+  			});
+			});
+		</script>
+
+        <script type="text/javascript"> 
+    		$(document).ready(function(){
+      		$(".flip").click(function(){
+        	$(".panel").fadeToggle('slow');
+      		})
+    		});
+	 	</script>
+ 
+		<style type="text/css"> 
+			div.panel,p.flip
+			{
+			margin:300px;
+			padding:10px;
+			text-align:center;
+			background:#e5eecc;
+			border:solid 1px #c3c3c3;
+			}
+
+			div.panel	
+			{
+			height:120px;
+			display:none;
+			}
+		</style>
+
+	</head>
+
+	<body bgcolor="#90EE90" text="#0A0A0A">
+
+		<div class="panel">
+			<img  src="https://i.imgur.com/b2OHY4x.jpg">
+		</div>
+
+		<h2>This is my world</h2>
+		<p>我最喜歡做的事<br>就是追劇<br>不然就是看影片<br>尤其是蠟筆小新<br>它可以紓解的壓力<br>控制我的情緒</p>
+
+
+		<a class="o" href="https://www.youtube.com/watch?v=ReYUwXEeKYo" target="連結目標" title="我的最愛">看個蠟筆小新放鬆一下吧</a>
+		<br>
+		<p class="flip"> push here !</p>
+	</body>
+</html>
